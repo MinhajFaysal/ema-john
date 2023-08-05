@@ -1,10 +1,13 @@
 .product {
+    padding: 5px;
     height: 510px;
     width: 300px;
-    border: 2px solid #95A0A7;
+    border: 2px solid #95a0a770;
+    border-radius: 5px;
 }
 
 .product img {
-    height: 286px;
-    width: 286px;
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
 }

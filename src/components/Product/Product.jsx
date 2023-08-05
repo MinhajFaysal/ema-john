@@ -7,7 +7,7 @@ const Product = (props) => {
         <div className='product'>
             <img src={img} alt="" />
             <h3>{name}</h3>
-            <h4>Price: {price}$</h4>
+            <h4>Price: ${price}</h4>
             <p>Manufacturer: {manufacturer}</p>
         </div>
     );
