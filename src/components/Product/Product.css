@@ -8,6 +8,10 @@
     outline: none;
 }
 
+.product:hover {
+    border: 2px solid #95a0a7b2;
+}
+
 .product img {
     height: 286px;
     width: 95%;
