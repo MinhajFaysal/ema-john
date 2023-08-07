@@ -1,3 +1,5 @@
+//Module 49.5 dekho na bujhle (module and data storage integration)
+
 // use local storage to manage cart data
 const addToDb = id => {
     let shoppingCart = getShoppingCart();
