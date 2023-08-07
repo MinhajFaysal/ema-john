@@ -1,9 +1,11 @@
 .product {
     height: 510px;
     /* width: 300px; */
-    border: 1px solid #95a0a770;
+    /* border: 1px solid #95a0a770; */
     border-radius: 8px;
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 8px;
+    outline: none;
 }
 
 .product img {
