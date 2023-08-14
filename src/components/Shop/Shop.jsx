@@ -3,7 +3,6 @@ import './Shop.css'
 import Product from '../Product/Product';
 import Cart from "../Cart/Cart";
 import { addToDb, getShoppingCart } from '../../utilities/fakedb';
-import { faColonSign } from '@fortawesome/free-solid-svg-icons';
 
 const Shop = () => {
     const [products, setProducts] = useState([]);

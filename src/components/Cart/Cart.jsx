@@ -34,8 +34,8 @@ const Cart = (props) => {
             <p>Total Shipping: ${totalShipping}</p>
             <p>Tax: ${totalTax.toFixed(2)}</p>
             <h3>Grand Total: ${grandTotal.toFixed(2)}</h3>
-            <a href="">Clear Cart</a> <br />
-            <a href="">Order Review</a>
+            {/* <a href="">Clear Cart</a> <br />
+            <a href="">Order Review</a> */}
         </div>
     );
 };
