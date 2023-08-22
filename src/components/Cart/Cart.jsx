@@ -4,7 +4,7 @@ import './Cart.css'
 const Cart = (props) => {
     // const cart = props.cart;  // option 1
     const { cart } = props;    // option 2
-    console.log(cart);
+    // console.log(cart);
 
     let totalPrice = 0;
     let totalShipping = 0;
@@ -34,8 +34,6 @@ const Cart = (props) => {
             <p>Total Shipping: ${totalShipping}</p>
             <p>Tax: ${totalTax.toFixed(2)}</p>
             <h4>Grand Total: ${grandTotal.toFixed(2)}</h4>
-            {/* <a href="">Clear Cart</a> <br />
-            <a href="">Order Review</a> */}
         </div>
     );
 };
