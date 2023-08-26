@@ -32,12 +32,12 @@ const router = createBrowserRouter([
         element: <Inventory></Inventory>
       },
       {
-        path: '/login',
-        element: <Login></Login>
-      },
-      {
         path: '/checkout',
         element: <Checkout></Checkout>
+      },
+      {
+        path: '/login',
+        element: <Login></Login>
       },
     ]
 
